@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EditTextL</string>
+    <string name="clear_text">Очистить</string>
+    <string name="open_text">Открыть</string>
+    <string name="save_text">Сохранить</string>
+    <string name="settings">Настройки</string>
+
+    <string name="pref_openmode">Режим открытия</string>
+    <string name="pref_color">Цвет</string>
+    <string name="pref_color_black">Черный цвет</string>
+    <string name="pref_color_red">Красный цвет</string>
+    <string name="pref_color_green">Зеленый цвет</string>
+    <string name="pref_color_blue">Синий цвет</string>
+    <string name="pref_size">Размер</string>
+    <string name="pref_style">Стиль</string>
+    <string name="pref_style_regular">Нормальный</string>
+    <string name="pref_style_bold">Полужирный</string>
+    <string name="pref_style_italic">Курсив</string>
+    <string name="start">Начните вводить ваш текст здесь…</string>
+
+</resources>

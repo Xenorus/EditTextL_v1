@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Настройка шрифтов">
+        <EditTextPreference
+            android:defaultValue="15"
+            android:dialogTitle="Введите размер шрифта (от 10 до 30)"
+            android:key="@string/pref_size"
+            android:summary="Установить размер шрифта"
+            android:title="Размер шрифта"/>
+
+        <ListPreference
+            android:key="@string/pref_style"
+            android:title="Стиль шрифта"
+            android:summary="Установить стиль шрифта"
+            android:defaultValue="1"
+            android:entries="@array/text_style"
+            android:entryValues="@array/text_style"
+            android:dialogTitle="Выберите стиль для шрифта"/>
+
+        <PreferenceScreen
+            android:key="@string/pref_color"
+            android:title="Цвет текста"
+            android:summary="Установить цвет текста">
+
+            <CheckBoxPreference
+                android:key="@string/pref_color_black"
+                android:title="Черный"
+                android:defaultValue="true"
+                android:summary="Установить черный цвет"/>
+            <CheckBoxPreference
+                android:key="@string/pref_color_red"
+                android:title="Красный"
+                android:defaultValue="true"
+                android:summary="Установить красный цвет"/>
+            <CheckBoxPreference
+                android:key="@string/pref_color_green"
+                android:title="Зеленый"
+                android:defaultValue="true"
+                android:summary="Установить зеленый цвет"/>
+            <CheckBoxPreference
+                android:key="@string/pref_color_blue"
+                android:title="Синий"
+                android:defaultValue="true"
+                android:summary="Установить синий цвет"/>
+        </PreferenceScreen>
+
+
+    </PreferenceCategory>
+
+     
+</PreferenceScreen>

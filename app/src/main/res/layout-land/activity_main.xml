@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/editText"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:hint="@string/start"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:orientation="horizontal"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
